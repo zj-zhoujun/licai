@@ -1,0 +1,20 @@
+[ 2020-09-08T00:47:50+08:00 ] 111.7.100.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `info` ORDER BY id asc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-09-08T00:48:27+08:00 ] 111.7.100.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `info` ORDER BY id asc LIMIT 1   [ RunTime:0.0005s ]
+

@@ -1,0 +1,40 @@
+<include file="Mobile:header" nav="推广记录"/>
+<div class="mobile">
+    <div class="othertop">
+        <a class="goback" href="javascript:history.back();"><img src="__PUBLIC__/mobile/img/goback.png" /></a>
+        <div class="othertop-font">推广记录</div>
+    </div>
+    <div class="header-nbsp"></div>
+    <div class="record_outer">
+    	<table>
+    		<tr>
+    		  
+                        </p>
+    			
+					<th>用户名</th>
+    			<th> 投资金额</th>
+    		
+    		
+				<th>成员级别</th>
+    		</tr>
+            <volist name="results" id="i">
+		
+					 <tr>
+             
+                   
+					   <td>{$i.phone}</td>
+                    <td>{$i.all}</td>
+                 
+                   
+					 <td> {$i.level}</td>
+                </tr>
+				
+		
+               
+            </volist> 
+			
+    	</table>
+    </div>
+</div>
+</body>
+</html>

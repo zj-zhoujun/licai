@@ -1,0 +1,25 @@
+<include file="Mobile:header" nav="文章详情"/>
+<body>
+<div class="mobile">
+    <div class="othertop">
+        <a class="goback" href="javascript:history.back();"><img src="__PUBLIC__/mobile/img/goback.png" /></a>
+        <div class="othertop-font">详情</div>
+    </div>
+    <div class="news_detail">
+        <h1 class="tit">{$article.title}</h1>
+        <!--<p class="time">{:date("Y-m-d",strtotime($article['time']))}</p>-->
+        <div>{:htmlspecialchars_decode($article['content'])}</div>
+    </div>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/m/css/foot.css"> 
+   <div class="hh"></div> 
+    </div>
+   <footer class="footer" style="height: 52px;"> 
+    <a href="/Mobile" style="margin-top: 0px;"><img src="__PUBLIC__/m/img/rbtn_home_hot_normal.png" style="margin-left:25%"></a> 
+    <a href="/Mobile/lists.html" style="margin-top: 0px;"><img src="__PUBLIC__/m/img/16.png" style="margin-left:25%"></a> 
+    <a href="/user/person.html" style="margin-top: 0px;"><img src="__PUBLIC__/m/img/19.png" style="margin-left:25%"></a> 
+    <a href="{:getInfo('service')}" style="margin-top: 0px;"><img src="__PUBLIC__/m/img/18.png" style="margin-left:25%"></a> 
+   </footer> 
+	
+</div>
+</body>
+</html>
